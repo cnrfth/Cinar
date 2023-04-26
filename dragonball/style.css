@@ -1,0 +1,47 @@
+body {
+    font-family: "Rajdhani";
+    background-color: black;
+    color: coral;
+}
+
+.orange {
+    color: coral;
+}
+
+.white {
+    color: snow;
+}
+
+.navbar, .carousel {
+    border-bottom: 1px solid #888;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-link:active,
+.nav-link:hover {
+    color:coral !important;
+}
+
+.slider-image {
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-image {
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    color: snow;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    border-top: 1px solid #888;
+}
