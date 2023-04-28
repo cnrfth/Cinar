@@ -1,167 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- Bootstrap einbinden --> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <!-- Own CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Titel -->
-    <title>Dragon Ball</title>
-    <!-- JS Enter Site -->
-    <script>
-      if (confirm('Dragon Ball Fan?')) {
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Bootstrap einbinden -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- Own CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Titel -->
+  <title>Dragon Ball</title>
+  <!-- JS Enter Site -->
+  <script>
+    if (confirm('Dragon Ball Fan?')) {
       //action confirmed
       /* window.location = "#index";*/
-      } else {
+    } else {
       //action cancelled
       window.location = "no.html";
-      }
-    </script>
+    }
+  </script>
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-lg-2 sticky-top">
-        <div class="container">
-          <a class="navbar-brand fs-2 fw-bold" href="#">
-            <i class="fa-regular bi bi-stars"></i>
-            Dragon <span class="orange">Ball</span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                    <i class="fa-regular bi bi-house-fill"></i>
-                    Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#ueber">
-                    <i class="fa-regular bi bi-person-fill"></i>
-                    Über</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#charaktere">
-                    <i class="fa-regular bi bi-yin-yang"></i>
-                    Charaktere</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#kontaktformular">
-                    <i class="fa-regular bi bi-mailbox"></i>
-                    Kontaktformular</a>
-              </li>
-        </div>
-      </nav>
-
-    <!-- Bilder -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="2000">
-            <div style="background-image: url('slider/1.jpeg');" class="slider-image"></div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <div style="background-image: url('slider/2.png');" class="slider-image"></div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <div style="background-image: url('slider/3.jpeg');" class="slider-image"></div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <div style="background-image: url('slider/4.png');" class="slider-image"></div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <div style="background-image: url('slider/5.jpeg');" class="slider-image"></div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary pt-lg-2 sticky-top">
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-bold" href="#">
+        <i class="fa-regular bi bi-stars"></i>
+        Dragon <span class="orange">Ball</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              <i class="fa-regular bi bi-house-fill"></i>
+              Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#ueber">
+              <i class="fa-regular bi bi-person-fill"></i>
+              Über</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#charaktere">
+              <i class="fa-regular bi bi-yin-yang"></i>
+              Charaktere</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontaktformular">
+              <i class="fa-regular bi bi-mailbox"></i>
+              Kontaktformular</a>
+          </li>
       </div>
+  </nav>
 
-    <!-- Über Dragon Ball -->
-    <div id="ueber" class="container mt-5" >
-      <h1 class="fw-bold">Über Dragon Ball</h1>
-      <p class="white">Dragon Ball (jap. ドラゴンボール, Doragonbōru) ist eine Manga-Serie des japanischen Zeichners Akira Toriyama und basiert lose auf dem Roman Die Reise nach Westen von Wu Cheng’en. 
-        Dragon Ball erschien ursprünglich von 1984 bis 1995 im Manga-Magazin Weekly Shōnen Jump und wurde später in 42 Bänden veröffentlicht. Die insgesamt 519 Kapitel umfassen über 8.000 Seiten. 
-        Darüber hinaus erfolgte zunächst eine Umsetzung in den Anime-Fernsehserien Dragon Ball und Dragon Ball Z. 
-        <p class="white"> Aufgrund des großen Erfolgs besteht das Franchise inzwischen aus insgesamt vier Fernsehserien, 18 Kinofilmen, drei Fernsehfilmen und drei OVA, sowie einer Vielzahl von Videospielen. 
-        1989 und 2008 folgten zwei Realfilm-Umsetzungen des Mangas. Mit etwa 156 Millionen verkauften Exemplaren in Japan und 230 Millionen verkauften Exemplaren weltweit ist Dragon Ball nach One Piece der zweitmeistverkaufte Manga aller Zeiten.
-        <p class="white">Der Manga lässt sich dem Shōnen-Genre zuordnen und beeinflusst auch heute noch bekannte Zeichner wie Eiichirō Oda, Tite Kubo, Masashi, Seishi Kishimoto und Hiro Mashima. Dragon Ball ist eine der weltweit erfolgreichsten Anime-Serien.
-        <p class="fw-bold">Handlung</p>
-        <p class="white">Der Manga Dragon Ball beschreibt die Abenteuer des Protagonisten Son-Goku und seiner Freunde, die sich immer wieder auf die Suche nach den sieben Dragon Balls, die von Bulma Dragon Balls, Drachenkugeln oder einfach Kugeln genannt werden. begeben und zahlreiche Abenteuer zu bestehen haben. 
-        <p class="white">Die Geschichte beginnt mit Son-Gokus Kindheit ab einem Alter von zwölf Jahren und seiner Zeit als Jugendlichem (Bände 1 bis 16) und endet mit seinem Leben als Erwachsenem (Bände 17 bis 42). Die einzelnen Handlungsstränge sind in Sagas unterteilbar und werden mit fortschreitender Handlung komplexer.
-        Ein weiteres Hauptmotiv ist der stetige Kampf von Gut gegen Böse. Um den Frieden zu sichern und die Erde zu retten, sehen sich Son-Goku und seine Freunde fortwährend mit Dämonen, gefährlichen Kriegern, machtgierigen Außerirdischen und sowohl Gegnern als auch Freunden aus der Zukunft konfrontiert, die in die Geschichte der Gegenwart eindringen. 
-        <p class="white">Fester Bestandteil der Geschichte sind auch die Kampfsportturniere. Son-Goku und seine Freunde nehmen jeweils am 21., 22. und 23. und schließlich am 25. Turnier sowie dem 28. Kampfturnier (wobei Son-Goku im letzten Turnier nur den ersten Kampf gegen Oob bestreitet) auf der Papayainsel teil.
-        Handlungsort ist nicht ausschließlich die Erde, sondern kurzzeitig andere Planeten oder das Jenseits. Im Verlauf der Geschichte stellt sich heraus, dass sowohl der irdische Gott als auch Piccolo Namekianer sind und vom Planeten Namek stammen und Son-Goku ein Saiyajin vom Planeten Vegeta ist.</p>
-        </p>
+  <!-- Bilder -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <div style="background-image: url('slider/1.jpeg');" class="slider-image"></div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div style="background-image: url('slider/2.png');" class="slider-image"></div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div style="background-image: url('slider/3.jpeg');" class="slider-image"></div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div style="background-image: url('slider/4.png');" class="slider-image"></div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div style="background-image: url('slider/5.jpeg');" class="slider-image"></div>
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <!-- Charaktere -->
-    <div id="charaktere" class="container" >
-      <h2 class="fw-bold">Charaktere</h2>
-      <div class="card-group">
-        <div class="card border-0 rounded-0">
-          <div style="background-image: url('slider/1.jpeg');" class="card-image"></div>
-          <div class="card-body">
-            <h5 class="card-title fw-bold orange">Son Goku</h5>
-            <p class="card-text">Son Goku, geboren Kakarott ist ein männlicher Saiyajin, der auf der Erde aufwuchs. Als Kind verwandelte er sich in einen riesigen Affen und tötete versehentlich seinen Adoptiv-Großvater, weswegen er für den Großteil seiner Kindheit alleine in der Wildnis leben musste.</p>
-          </div>
-        </div>
-        <div class="card border-0 rounded-0">
-          <div style="background-image: url('slider/3.jpeg');" class="card-image"></div>
-          <div class="card-body">
-            <h5 class="card-title fw-bold orange">Bulma</h5>
-            <p class="card-text">Bulma ist eine weiblicher Mensch und Wissenschaftlerin, sowie die zweite Tochter des Capsule Corparation Gründers, Dr. Brief und seiner Frau, Panchy. Sie war damals der erste Mensch, dem Son Goku nach dem Tod seines Großvaters begegnet war, sowie das erste Mädchen.</p>
-          </div>
-        </div>
-        <div class="card border-0 rounded-0">
-          <div style="background-image: url('slider/6.png');" class="card-image"></div>
-          <div class="card-body">
-            <h5 class="card-title fw-bold orange">Kintoun (Überschallwolke)</h5>
-            <p class="card-text">Eine Kintoun ist eine Überschallwolke, die nur Personen reinen Herzens trägt. Son Goku bekam eine Kintoun von Muten Roshi geschenkt.
+  <!-- Über Dragon Ball -->
+  <div id="ueber" class="container mt-5">
+    <h1 class="fw-bold">Über Dragon Ball</h1>
+    <p class="white">Dragon Ball (jap. ドラゴンボール, Doragonbōru) ist eine Manga-Serie des japanischen Zeichners Akira
+      Toriyama und basiert lose auf dem Roman Die Reise nach Westen von Wu Cheng’en.
+      Dragon Ball erschien ursprünglich von 1984 bis 1995 im Manga-Magazin Weekly Shōnen Jump und wurde später in 42
+      Bänden veröffentlicht. Die insgesamt 519 Kapitel umfassen über 8.000 Seiten.
+      Darüber hinaus erfolgte zunächst eine Umsetzung in den Anime-Fernsehserien Dragon Ball und Dragon Ball Z.
+    <p class="white"> Aufgrund des großen Erfolgs besteht das Franchise inzwischen aus insgesamt vier Fernsehserien, 18
+      Kinofilmen, drei Fernsehfilmen und drei OVA, sowie einer Vielzahl von Videospielen.
+      1989 und 2008 folgten zwei Realfilm-Umsetzungen des Mangas. Mit etwa 156 Millionen verkauften Exemplaren in Japan
+      und 230 Millionen verkauften Exemplaren weltweit ist Dragon Ball nach One Piece der zweitmeistverkaufte Manga
+      aller Zeiten.
+    <p class="white">Der Manga lässt sich dem Shōnen-Genre zuordnen und beeinflusst auch heute noch bekannte Zeichner
+      wie Eiichirō Oda, Tite Kubo, Masashi, Seishi Kishimoto und Hiro Mashima. Dragon Ball ist eine der weltweit
+      erfolgreichsten Anime-Serien.
+    <p class="fw-bold">Handlung</p>
+    <p class="white">Der Manga Dragon Ball beschreibt die Abenteuer des Protagonisten Son-Goku und seiner Freunde, die
+      sich immer wieder auf die Suche nach den sieben Dragon Balls, die von Bulma Dragon Balls, Drachenkugeln oder
+      einfach Kugeln genannt werden. begeben und zahlreiche Abenteuer zu bestehen haben.
+    <p class="white">Die Geschichte beginnt mit Son-Gokus Kindheit ab einem Alter von zwölf Jahren und seiner Zeit als
+      Jugendlichem (Bände 1 bis 16) und endet mit seinem Leben als Erwachsenem (Bände 17 bis 42). Die einzelnen
+      Handlungsstränge sind in Sagas unterteilbar und werden mit fortschreitender Handlung komplexer.
+      Ein weiteres Hauptmotiv ist der stetige Kampf von Gut gegen Böse. Um den Frieden zu sichern und die Erde zu
+      retten, sehen sich Son-Goku und seine Freunde fortwährend mit Dämonen, gefährlichen Kriegern, machtgierigen
+      Außerirdischen und sowohl Gegnern als auch Freunden aus der Zukunft konfrontiert, die in die Geschichte der
+      Gegenwart eindringen.
+    <p class="white">Fester Bestandteil der Geschichte sind auch die Kampfsportturniere. Son-Goku und seine Freunde
+      nehmen jeweils am 21., 22. und 23. und schließlich am 25. Turnier sowie dem 28. Kampfturnier (wobei Son-Goku im
+      letzten Turnier nur den ersten Kampf gegen Oob bestreitet) auf der Papayainsel teil.
+      Handlungsort ist nicht ausschließlich die Erde, sondern kurzzeitig andere Planeten oder das Jenseits. Im Verlauf
+      der Geschichte stellt sich heraus, dass sowohl der irdische Gott als auch Piccolo Namekianer sind und vom Planeten
+      Namek stammen und Son-Goku ein Saiyajin vom Planeten Vegeta ist.</p>
+    </p>
+  </div>
 
-              Im späteren Verlauf der Geschichte, wir diese allerdings von Tamburin zerstört, aber er bekommt eine Neue von Karin, der eine riesige Kintoun besitzt, von der sich Son Goku ein Stück mitnehmen darf. Von dieser riesigen Kintoun stammt auch die des Herrn der Schildkröten.
-              
-              Es gibt auch eine dunkle Kintoun, die Karin Tao Baibai ausleiht, um ihn schneller wieder vom Quittenturm herunter zu bekommen.</p>
-          </div>
+  <!-- Charaktere -->
+  <div id="charaktere" class="container">
+    <h2 class="fw-bold">Charaktere</h2>
+    <div class="card-group">
+      <div class="card border-0 rounded-0">
+        <div style="background-image: url('slider/1.jpeg');" class="card-image"></div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold orange">Son Goku</h5>
+          <p class="card-text">Son Goku, geboren Kakarott ist ein männlicher Saiyajin, der auf der Erde aufwuchs. Als
+            Kind verwandelte er sich in einen riesigen Affen und tötete versehentlich seinen Adoptiv-Großvater, weswegen
+            er für den Großteil seiner Kindheit alleine in der Wildnis leben musste.</p>
         </div>
       </div>
-      <br>
+      <div class="card border-0 rounded-0">
+        <div style="background-image: url('slider/3.jpeg');" class="card-image"></div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold orange">Bulma</h5>
+          <p class="card-text">Bulma ist eine weiblicher Mensch und Wissenschaftlerin, sowie die zweite Tochter des
+            Capsule Corparation Gründers, Dr. Brief und seiner Frau, Panchy. Sie war damals der erste Mensch, dem Son
+            Goku nach dem Tod seines Großvaters begegnet war, sowie das erste Mädchen.</p>
+        </div>
+      </div>
+      <div class="card border-0 rounded-0">
+        <div style="background-image: url('slider/6.png');" class="card-image"></div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold orange">Kintoun (Überschallwolke)</h5>
+          <p class="card-text">Eine Kintoun ist eine Überschallwolke, die nur Personen reinen Herzens trägt. Son Goku
+            bekam eine Kintoun von Muten Roshi geschenkt.
+            Im späteren Verlauf der Geschichte, wir diese allerdings von Tamburin zerstört, aber er bekommt eine Neue
+            von Karin, der eine riesige Kintoun besitzt, von der sich Son Goku ein Stück mitnehmen darf. Von dieser
+            riesigen Kintoun stammt auch die des Herrn der Schildkröten.
+            Es gibt auch eine dunkle Kintoun, die Karin Tao Baibai ausleiht, um ihn schneller wieder vom Quittenturm
+            herunter zu bekommen.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+    
     <!-- Kontaktformular -->
     <div id="kontaktformular"></div>
     <h2 class="fw-bold">Kontaktformular</h2>
-      <form action="index.html" method="get" target="_self">
+    <form action="index.html" method="get" target="_self">
       <div class="mb-3">
-      <input type="text" class="form-control" id="nachname" minlength="2" placeholder="Name" required>
-      <input type="text" class="form-control" id="vorname" minlength="2" placeholder="Vorname">
-      <input type="email" class="form-control" id="email" placeholder="Beispiel: max@mustermann.de" required>
+        <input type="text" class="form-control" id="nachname" minlength="2" placeholder="Name" required>
+        <input type="text" class="form-control" id="vorname" minlength="2" placeholder="Vorname">
+        <input type="email" class="form-control" id="email" placeholder="Beispiel: max@mustermann.de" required>
       </div>
       <div class="mb-3">
-      <textarea class="form-control" id="nachricht" rows="3" minlength="10" placeholder="Ihre Nachricht..."></textarea>
+        <textarea class="form-control" id="nachricht" rows="3" minlength="10"
+          placeholder="Ihre Nachricht..."></textarea>
       </div>
       <div class="mb-3">
-      <input class="form-control "type="submit">
+        <input class="form-control " type="submit">
       </div>
-      </form>
+    </form>
 
     <!-- Footer -->
     <div class="footer py-5">&copy; 2023 Dragon Ball Projekt</div>
 
     <!-- JS und Popper einbinden -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"></script>
 </body>
+
 </html>
